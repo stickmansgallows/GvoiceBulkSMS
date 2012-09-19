@@ -101,7 +101,7 @@ class mainwin:
             self.updatelog("Invalid File")
             return 0
         temp = self.inp.read()
-        self.dataset = temp.replace(" ", "").replace("-", "").replace('\n','').split(',')
+        self.dataset = temp.replace(" ", "").replace("-", "").replace('\n','').replace('(','').replace(')','').split(',')
         
         self.updatelog("Loaded %s Phone Numbers"%len(self.dataset))
         self.inp.close()
