@@ -1,0 +1,10 @@
+Bulk SMS sender through Google Voice
+
+Google Voice API provided by http://code.google.com/p/pygooglevoice/
+GUI created by stickmansgallows
+
+This program will log a user into Google Voice and after loading in a CSV file
+with phone numbers, a text message can be sent to every phone number in the file
+
+Google Voice terms of service state that its service is for personal, non-commercial
+use only. Google enforces limits on the number of texts that can be sent as well.
